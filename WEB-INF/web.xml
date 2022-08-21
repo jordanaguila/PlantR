@@ -1,0 +1,18 @@
+<web-app>
+     <servlet>
+          <servlet-name>Login</servlet-name>
+          <servlet-class>PlantRLogin</servlet-class>
+     </servlet>
+     <servlet-mapping>
+          <servlet-name>Login</servlet-name>
+          <url-pattern>/login</url-pattern>
+     </servlet-mapping>
+     <servlet>
+       <servlet-name>Form</servlet-name>
+       <servlet-class>PlantREntryForm</servlet-class>
+     </servlet>
+     <servlet-mapping>
+       <servlet-name>Form</servlet-name>
+       <url-pattern>/entryform</url-pattern>
+     </servlet-mapping>
+</web-app>

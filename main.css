@@ -1,0 +1,119 @@
+.loginform {
+  border: 3px solid;
+   background-image: linear-gradient(#EEF4D4, #006C67);
+}
+
+.avatar {
+   text-align: center;
+  margin: 24px 0 12px 0;
+   float: middle;
+  align: middle;
+}
+
+.profpic {
+  float: middle;
+  align: middle;
+}
+
+header , footer {
+  background-color: #EEF4D4;
+  background-size: cover;
+  font-family: cursive;
+}
+
+h1, p {
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: monospace;
+}
+
+input[type=text], input[type=password], input[type=Email] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loginbody {
+border: 3px;
+height: 1550px;
+background-image: linear-gradient(#EEF4D4, #006C67);
+float: center;
+}
+
+.plantbody {
+  background-color: #003844;
+   text-align: center;
+  margin: 24px 0 12px 0;
+   float: middle;
+  align: middle;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+span.lgn {
+  float: right;
+  padding-top: 16px;
+}
+
+span.eml {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+
+    span.lgn {
+    display: block;
+    float: none;
+  }
+
+    span.eml {
+    display: block;
+    float: none;
+  }
+}
